@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_25489_rm_projects</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Hello,</p>
+<p>You have been identified to work on the&nbsp;Project Name: ${project_name}</p>
+<p>starting ${sys_created_on}.</p>
+<p>Following are the details related to this project:</p>
+<p>Project Id: <strong>${number}</strong></p>
+<p>Project Name: <strong>${project_name}</strong></p>
+<p>Project Owner: <strong>${project_owner}</strong></p>
+<p>Project Type: <strong>${project_type}</strong></p>
+<p>Other Project Members:&nbsp;<strong>${resource_list}</strong></p>
+<p>Please contact with ${project_owner} or ${sys_created_by} in case you have any questions or concerns.</p>
+<p>Thank you,</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>project.resource.assigned</name>
+        <sms_alternate/>
+        <subject>Project Resource Assigned</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-12 18:42:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>845d5917db6b2200dd4f5d50cf96192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>project.resource.assigned</sys_name>
+        <sys_package display_value="Resource Management" source="x_25489_rm">cb7e01b2db232200dd4f5d50cf961942</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Resource Management">cb7e01b2db232200dd4f5d50cf961942</sys_scope>
+        <sys_update_name>sysevent_email_template_845d5917db6b2200dd4f5d50cf96192b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-12 18:43:00</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_25489_rm_projects</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Hi,</p>
+<p>A new <strong>Project Name: ${project_name}</strong> has been&nbsp;<strong>Created by: ${sys_created_by}</strong> and you are identified as the project owner.</p>
+<p>Here are the details of the project:</p>
+<p>Project Id: ${number}</p>
+<p>Project Name: ${project_name}</p>
+<p>Project Status: ${project_status}</p>
+<p>Project Type: ${project_type}</p>
+<p>Resource Allocated: ${resource_allocated}</p>
+<p>Resource List: ${resource_list}</p>
+<p>Resource Required: ${resource_required}</p>
+<p>Should you have any queries regarding this project, please feel free to reach out to ${sys_created_by}.</p>
+<p>Thank you,</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[message text
+Created by: ${sys_created_by}
+
+Project Id: ${number}
+Created Date: ${sys_created_on}]]></message_text>
+        <name>project.created.template</name>
+        <sms_alternate><![CDATA[sms alternate
+Created by: ${sys_created_by}
+
+Project Id: ${number}
+Created Date: ${sys_created_on}]]></sms_alternate>
+        <subject>${number} - A new project has been created.</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-12 18:34:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e14b1117db6b2200dd4f5d50cf96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>project.created.template</sys_name>
+        <sys_package display_value="Resource Management" source="x_25489_rm">cb7e01b2db232200dd4f5d50cf961942</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Resource Management">cb7e01b2db232200dd4f5d50cf961942</sys_scope>
+        <sys_update_name>sysevent_email_template_e14b1117db6b2200dd4f5d50cf96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-12 18:34:57</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

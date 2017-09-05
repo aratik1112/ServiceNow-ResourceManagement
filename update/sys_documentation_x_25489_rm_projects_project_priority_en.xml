@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="project_priority" label="Project Priority" language="en" table="x_25489_rm_projects">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>project_priority</element>
+            <help/>
+            <hint/>
+            <label>Project Priority</label>
+            <language>en</language>
+            <name>x_25489_rm_projects</name>
+            <plural>Project Priorities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 18:51:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>98102d57db6b2200dd4f5d50cf961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project Priority</sys_name>
+            <sys_package display_value="Resource Management" source="x_25489_rm">cb7e01b2db232200dd4f5d50cf961942</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Resource Management">cb7e01b2db232200dd4f5d50cf961942</sys_scope>
+            <sys_update_name>sys_documentation_x_25489_rm_projects_project_priority_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 18:51:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

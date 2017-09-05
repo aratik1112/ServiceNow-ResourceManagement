@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_string_1</field>
+        <global>true</global>
+        <messages/>
+        <name>OncellEdit</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ alert("test");
+ callback(saveAndClose); 
+}
+function saveAndClose(){
+	alert('saveAndClose');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-16 01:50:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5cdd673a0f133200b6d58fbce1050e02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OncellEdit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resource Management" source="x_25489_rm">cb7e01b2db232200dd4f5d50cf961942</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Resource Management">cb7e01b2db232200dd4f5d50cf961942</sys_scope>
+        <sys_update_name>sys_script_client_5cdd673a0f133200b6d58fbce1050e02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-16 01:50:15</sys_updated_on>
+        <table>x_25489_rm_projects</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

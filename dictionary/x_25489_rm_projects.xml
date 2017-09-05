@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Projects" max_length="40" name="x_25489_rm_projects" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Project Id" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Project Duration" max_length="40" name="project_duration" type="string"/>
+        <element label="Project Name" max_length="40" name="project_name" type="string"/>
+        <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="Project Priority" max_length="40" name="project_priority" type="choice">
+            <choice>
+                <element label="Critical" sequence="0" value="Critical"/>
+                <element label="High" sequence="1" value="High"/>
+                <element label="Medium" sequence="2" value="Medium"/>
+                <element label="Low" sequence="3" value="Low"/>
+                <element label="Trivial" sequence="4" value="Trivial"/>
+            </choice>
+        </element>
+        <element label="Project Signed" max_length="40" name="project_signed" type="boolean"/>
+        <element label="Project Active" max_length="40" name="project_status" type="boolean"/>
+        <element choice="1" label="Project Type" max_length="40" name="project_type" type="choice">
+            <choice>
+                <element label="Development" sequence="0" value="Development"/>
+                <element label="Maintenance" sequence="1" value="Maintenance"/>
+                <element label="Support" sequence="2" value="Support"/>
+                <element label="Consulting" sequence="3" value="Consulting"/>
+                <element label="Management" sequence="4" value="Management"/>
+            </choice>
+        </element>
+        <element label="Resource Allocated" max_length="40" name="resource_allocated" type="integer"/>
+        <element label="Resource List" max_length="4000" name="resource_list" reference="sys_user" reference_qual="managerISNOTEMPTY^EQ" reference_qual_condition="managerISNOTEMPTY^EQ" type="glide_list"/>
+        <element label="Resource Required" max_length="40" name="resource_required" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="200" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="project_owner"/>
+        </index>
+    </element>
+</database>
